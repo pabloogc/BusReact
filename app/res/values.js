@@ -61,7 +61,9 @@ const ss = StyleSheet.create({
 
 export const Styles = {
   toolBar: {
-    props: {},
-    style: ss.toolBar
+    title: "Madrid Bus Interurbanos",
+    logo: {uri: 'https://facebook.github.io/react/img/logo_og.png'},
+    titleColor: "white",
+    style: ss.toolBar,
   }
 };

@@ -20,7 +20,7 @@ class HomeComponent extends Component {
   render() {
     return (
       <View>
-        <ToolbarAndroid style={...Styles.toolBar}/>
+        <ToolbarAndroid {...Styles.toolBar}/>
         <Text>Hey</Text>
       </View>
     )
