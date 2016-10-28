@@ -51,9 +51,17 @@ export const Colors = {
   lightMetroL4Color: "#72Bf44"
 };
 
-export const Styles = StyleSheet.create({
+const ss = StyleSheet.create({
     toolBar: {
+      height: 56,
       backgroundColor: Colors.darkGreen
     }
   }
 );
+
+export const Styles = {
+  toolBar: {
+    props: {},
+    style: ss.toolBar
+  }
+};

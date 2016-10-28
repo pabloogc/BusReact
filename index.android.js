@@ -10,10 +10,23 @@ import {
   StyleSheet,
   Text,
   View,
-  Navigator
+  Navigator,
+  ToolbarAndroid
 } from 'react-native';
 
-import {Colors} from './app/res/values'
+import {Colors, Styles} from './app/res/values'
+
+class HomeComponent extends Component {
+  render() {
+    return (
+      <View>
+        <ToolbarAndroid style={...Styles.toolBar}/>
+        <Text>Hey</Text>
+      </View>
+    )
+  }
+}
+
 
 export default class BusReact extends Component {
   render() {
@@ -25,8 +38,14 @@ export default class BusReact extends Component {
     );
   }
 
-  renderScene(router, navigator) {
-    return (<Text>Hello</Text>);
+  renderScene(route, navigator) {
+    switch (route.id) {
+      case 'Home':
+        return <HomeComponent/>;
+      default:
+        return <Text>{route.id}</Text>;
+    }
+
   }
 }
 
