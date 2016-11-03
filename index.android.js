@@ -14,19 +14,7 @@ import {
   ToolbarAndroid
 } from 'react-native';
 
-import {Colors, Styles} from './app/res/values'
-
-class HomeComponent extends Component {
-  render() {
-    return (
-      <View>
-        <ToolbarAndroid {...Styles.toolBar}/>
-        <Text>Hey</Text>
-      </View>
-    )
-  }
-}
-
+import HomeComponent from './app/home/Home'
 
 export default class BusReact extends Component {
   render() {

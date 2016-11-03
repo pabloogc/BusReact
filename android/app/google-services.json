@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "154184717414",
+    "firebase_url": "https://madridbus-5a827.firebaseio.com",
+    "project_id": "madridbus-5a827",
+    "storage_bucket": "madridbus-5a827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154184717414:android:148348624a1ed9dd",
+        "android_client_info": {
+          "package_name": "com.busreact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154184717414-7l7o2gf17j6rr3prl15cdgtpnc15p59c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.busreact",
+            "certificate_hash": "9D40D1F020E06ED679BC0DF1B7CC4E046DCAF786"
+          }
+        },
+        {
+          "client_id": "154184717414-77l4hgdk0l3ajaanj4eg1usij2768f2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1r_zPUKVMT8ZgSnEXJ0Ee8QSl5VlggX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154184717414-77l4hgdk0l3ajaanj4eg1usij2768f2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

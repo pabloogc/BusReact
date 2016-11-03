@@ -51,19 +51,46 @@ export const Colors = {
   lightMetroL4Color: "#72Bf44"
 };
 
-const ss = StyleSheet.create({
+const styleSheet = StyleSheet.create({
     toolBar: {
       height: 56,
       backgroundColor: Colors.darkGreen
-    }
+    },
+
+    savedStopListItem: {
+      flexDirection: 'row',
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'white',
+      padding: 8,
+      height: 54,
+    },
+
+    savedStopName: {
+      flex: 1,
+      fontSize: 18,
+      color: "#757575",
+    },
+
+    savedStopNumber: {
+      fontSize: 18,
+      color: "#ddd",
+    },
   }
 );
 
 export const Styles = {
   toolBar: {
-    title: "Madrid Bus Interurbanos",
-    logo: {uri: 'https://facebook.github.io/react/img/logo_og.png'},
+    logo: require("../res/img/ic_launcher/ic_launcher.png"),
+    title: " Madrid Bus Interurbanos",
     titleColor: "white",
-    style: ss.toolBar,
-  }
+    elevation: 10,
+    style: styleSheet.toolBar,
+  },
+  savedStopListItem: {style: styleSheet.savedStopListItem},
+  savedStopName: {style: styleSheet.savedStopName},
+  savedStopNumber: {style: styleSheet.savedStopNumber},
+
 };
+
